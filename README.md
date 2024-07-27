@@ -3,10 +3,9 @@
 [![Lincese](https://img.shields.io/badge/License-MIT-informational)](https://www.apache.org/licenses/LICENSE-2.0.html)&nbsp;
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/EZSwiftExtensions.svg)](https://img.shields.io/cocoapods/v/LFAlertController.svg)&nbsp;
 
-
 <h1 align="left">Monotone</h1>
 <p align="center">
-    <img width="600" src="https://github.com/Andy0570/Monotone/blob/master/doc/screens_cn/poster.png">
+    <img width="600" src="./doc/screens_cn/poster.png">
 </p>
 <p align="center">
     <p align="center">
@@ -15,6 +14,7 @@
         <a href="https://github.com/Andy0570/Monotone/issues">新功能建议</a>
     </p>
 </p>
+
 <br/>
 <br/>
 
@@ -37,19 +37,19 @@
 ## 预览
 
 <p align="center"> 
-<img width="200" src="https://github.com/Andy0570/Monotone/blob/master/doc/screens_cn/screen-record-1.gif">
-<img width="200" src="https://github.com/Andy0570/Monotone/blob/master/doc/screens_cn/screen-record-2.gif">
+<img width="200" src="./doc/screens_cn/screen-record-1.gif">
+<img width="200" src="./doc/screens_cn/screen-record-2.gif">
 </p>
 
 <p align="center"> 
-<img width="200" src="https://github.com/Andy0570/Monotone/blob/master/doc/screens_cn/screen-shot-1.png">
-<img width="200" src="https://github.com/Andy0570/Monotone/blob/master/doc/screens_cn/screen-shot-2.png">
-<img width="200" src="https://github.com/Andy0570/Monotone/blob/master/doc/screens_cn/screen-shot-3.png">
-<img width="200" src="https://github.com/Andy0570/Monotone/blob/master/doc/screens_cn/screen-shot-4.png">
-<img width="200" src="https://github.com/Andy0570/Monotone/blob/master/doc/screens_cn/screen-shot-5.png">
-<img width="200" src="https://github.com/Andy0570/Monotone/blob/master/doc/screens_cn/screen-shot-6.png">
-<img width="200" src="https://github.com/Andy0570/Monotone/blob/master/doc/screens_cn/screen-shot-7.png">
-<img width="200" src="https://github.com/Andy0570/Monotone/blob/master/doc/screens_cn/screen-shot-8.png">
+<img width="200" src="./doc/screens_cn/screen-shot-1.png">
+<img width="200" src="./doc/screens_cn/screen-shot-2.png">
+<img width="200" src="./doc/screens_cn/screen-shot-3.png">
+<img width="200" src="./doc/screens_cn/screen-shot-4.png">
+<img width="200" src="./doc/screens_cn/screen-shot-5.png">
+<img width="200" src="./doc/screens_cn/screen-shot-6.png">
+<img width="200" src="./doc/screens_cn/screen-shot-7.png">
+<img width="200" src="./doc/screens_cn/screen-shot-8.png">
 </p>
 
 <br/>
@@ -231,7 +231,7 @@
 3. 在APP建立完成后，会自动跳转到APP详情页（您也可以在 <https://unsplash.com/oauth/applications> 中找到它）。在页面下方的 `Redirect URI & Permissions - Redirect URI` 中填写 `monotone://unsplash` ，并勾选相应许可，如下图所示，并保存；
 
 <p align="center">
-<img width="500" src="https://github.com/Andy0570/Monotone/blob/master/doc/app-redirect.png">
+<img width="500" src="./doc/app-redirect.png">
 </p>
 
 4. 完成以上工作后，记录页面中的”Access Key“与”Secret Key“，稍后会用到这对密钥。
