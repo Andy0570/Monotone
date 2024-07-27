@@ -2,13 +2,13 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
-# config
-config.json
-
 ## User settings
+## 用户设置项
+config.json
 xcuserdata/
 
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+## 兼容 Xcode 8 以及更早的版本（Xcode 9 开始忽略不需要启动）
 *.xcscmblueprint
 *.xccheckout
 
@@ -26,7 +26,9 @@ DerivedData/
 !default.perspectivev3
 
 ## Obj-C/Swift specific
+## Objective-C/Swift 相关的特定文件
 *.hmap
+*.generated.swift # R.swift
 
 ## App packaging
 *.ipa
@@ -51,7 +53,7 @@ playground.xcworkspace
 
 .build/
 
-# CocoaPods
+# CocoaPods 第三方 Pods 库目录
 #
 # We recommend against adding the Pods directory to your .gitignore. However
 # you should judge for yourself, the pros and cons are mentioned at:
@@ -62,7 +64,7 @@ playground.xcworkspace
 # Add this line if you want to avoid checking in source code from the Xcode workspace
 # *.xcworkspace
 
-# Carthage
+# Carthage 构建目录
 #
 # Add this line if you want to avoid checking in source code from Carthage dependencies.
 # Carthage/Checkouts
@@ -73,7 +75,7 @@ Carthage/Build/
 Dependencies/
 .accio/
 
-# fastlane
+# fastlane 构建产生的文件
 #
 # It is recommended to not store the screenshots in the git repo.
 # Instead, use fastlane to re-generate the screenshots whenever they are needed.
@@ -85,7 +87,7 @@ fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
 
-# Code Injection
+# Code Injection 代码注入工具产生的目录及文件
 #
 # After new code Injection tools there's a generated folder /iOSInjectionProject
 # https://github.com/johnno1962/injectionforxcode
