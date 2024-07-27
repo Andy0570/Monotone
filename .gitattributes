@@ -1,4 +1,2 @@
-Unsplash[[:space:]]-[[:space:]]Full[[:space:]]UI[[:space:]]kit/Unsplash[[:space:]]-[[:space:]]UI[[:space:]]Kit.sketch filter=lfs diff=lfs merge=lfs -text
-Unsplash[[:space:]]-[[:space:]]Full[[:space:]]UI[[:space:]]kit/Unsplash[[:space:]]-[[:space:]]UI[[:space:]]Kit.studio filter=lfs diff=lfs merge=lfs -text
-Unsplash[[:space:]]-[[:space:]]UI[[:space:]]Kit.studio filter=lfs diff=lfs merge=lfs -text
-Unsplash[[:space:]]-[[:space:]]UI[[:space:]]Kit.sketch filter=lfs diff=lfs merge=lfs -text
+*.studio filter=lfs diff=lfs merge=lfs -text
+*.sketch filter=lfs diff=lfs merge=lfs -text
