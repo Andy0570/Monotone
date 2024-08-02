@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		227C16AC2C5CC55F003061F3 /* api_terms_cn.html in Resources */ = {isa = PBXBuildFile; fileRef = 227C16A12C5CC55F003061F3 /* api_terms_cn.html */; };
+		227C16AD2C5CC55F003061F3 /* license_cn.html in Resources */ = {isa = PBXBuildFile; fileRef = 227C16A22C5CC55F003061F3 /* license_cn.html */; };
+		227C16AE2C5CC55F003061F3 /* privacy_policy_cn.html in Resources */ = {isa = PBXBuildFile; fileRef = 227C16A32C5CC55F003061F3 /* privacy_policy_cn.html */; };
+		227C16AF2C5CC55F003061F3 /* terms_and_conditions_cn.html in Resources */ = {isa = PBXBuildFile; fileRef = 227C16A42C5CC55F003061F3 /* terms_and_conditions_cn.html */; };
+		227C16B02C5CC55F003061F3 /* api_terms_en.html in Resources */ = {isa = PBXBuildFile; fileRef = 227C16A62C5CC55F003061F3 /* api_terms_en.html */; };
+		227C16B12C5CC55F003061F3 /* license_en.html in Resources */ = {isa = PBXBuildFile; fileRef = 227C16A72C5CC55F003061F3 /* license_en.html */; };
+		227C16B22C5CC55F003061F3 /* privacy_policy_en.html in Resources */ = {isa = PBXBuildFile; fileRef = 227C16A82C5CC55F003061F3 /* privacy_policy_en.html */; };
+		227C16B32C5CC55F003061F3 /* terms_and_conditions_en.html in Resources */ = {isa = PBXBuildFile; fileRef = 227C16A92C5CC55F003061F3 /* terms_and_conditions_en.html */; };
+		227C16BD2C5CDBC5003061F3 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 227C16BC2C5CDBC5003061F3 /* Localizable.xcstrings */; };
 		22964CBF2C5371A700D899C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22964CBE2C5371A700D899C4 /* AppDelegate.swift */; };
 		22964CC12C5371A700D899C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22964CC02C5371A700D899C4 /* SceneDelegate.swift */; };
 		22964CC32C5371A700D899C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22964CC22C5371A700D899C4 /* ViewController.swift */; };
@@ -19,6 +28,17 @@
 /* Begin PBXFileReference section */
 		00DDE558E716D4FBDA6478D7 /* Pods_Monotone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Monotone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E58B4B02FB44718FEE865D /* Pods-Monotone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monotone.release.xcconfig"; path = "Target Support Files/Pods-Monotone/Pods-Monotone.release.xcconfig"; sourceTree = "<group>"; };
+		227C16A12C5CC55F003061F3 /* api_terms_cn.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = api_terms_cn.html; sourceTree = "<group>"; };
+		227C16A22C5CC55F003061F3 /* license_cn.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = license_cn.html; sourceTree = "<group>"; };
+		227C16A32C5CC55F003061F3 /* privacy_policy_cn.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = privacy_policy_cn.html; sourceTree = "<group>"; };
+		227C16A42C5CC55F003061F3 /* terms_and_conditions_cn.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = terms_and_conditions_cn.html; sourceTree = "<group>"; };
+		227C16A62C5CC55F003061F3 /* api_terms_en.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = api_terms_en.html; sourceTree = "<group>"; };
+		227C16A72C5CC55F003061F3 /* license_en.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = license_en.html; sourceTree = "<group>"; };
+		227C16A82C5CC55F003061F3 /* privacy_policy_en.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = privacy_policy_en.html; sourceTree = "<group>"; };
+		227C16A92C5CC55F003061F3 /* terms_and_conditions_en.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = terms_and_conditions_en.html; sourceTree = "<group>"; };
+		227C16B62C5CC6D0003061F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		227C16B72C5CC6D0003061F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		227C16BC2C5CDBC5003061F3 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		22964CBB2C5371A700D899C4 /* Monotone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monotone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22964CBE2C5371A700D899C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22964CC02C5371A700D899C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +62,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		227C16A52C5CC55F003061F3 /* CN */ = {
+			isa = PBXGroup;
+			children = (
+				227C16A12C5CC55F003061F3 /* api_terms_cn.html */,
+				227C16A22C5CC55F003061F3 /* license_cn.html */,
+				227C16A32C5CC55F003061F3 /* privacy_policy_cn.html */,
+				227C16A42C5CC55F003061F3 /* terms_and_conditions_cn.html */,
+			);
+			path = CN;
+			sourceTree = "<group>";
+		};
+		227C16AA2C5CC55F003061F3 /* EN */ = {
+			isa = PBXGroup;
+			children = (
+				227C16A62C5CC55F003061F3 /* api_terms_en.html */,
+				227C16A72C5CC55F003061F3 /* license_en.html */,
+				227C16A82C5CC55F003061F3 /* privacy_policy_en.html */,
+				227C16A92C5CC55F003061F3 /* terms_and_conditions_en.html */,
+			);
+			path = EN;
+			sourceTree = "<group>";
+		};
+		227C16AB2C5CC55F003061F3 /* Licenses */ = {
+			isa = PBXGroup;
+			children = (
+				227C16A52C5CC55F003061F3 /* CN */,
+				227C16AA2C5CC55F003061F3 /* EN */,
+			);
+			path = Licenses;
+			sourceTree = "<group>";
+		};
 		22964CB22C5371A700D899C4 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +133,7 @@
 				22964CC72C5371A900D899C4 /* Assets.xcassets */,
 				22964CC92C5371A900D899C4 /* LaunchScreen.storyboard */,
 				22964CCC2C5371A900D899C4 /* Info.plist */,
+				227C16BC2C5CDBC5003061F3 /* Localizable.xcstrings */,
 			);
 			path = Monotone;
 			sourceTree = "<group>";
@@ -168,6 +220,7 @@
 		22964CDD2C549BFC00D899C4 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				227C16AB2C5CC55F003061F3 /* Licenses */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -215,6 +268,7 @@
 				22964CB82C5371A700D899C4 /* Frameworks */,
 				22964CB92C5371A700D899C4 /* Resources */,
 				CBA198B12908FDF28847B6BD /* [CP] Embed Pods Frameworks */,
+				227C16A02C5CBCB5003061F3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -247,6 +301,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 22964CB22C5371A700D899C4;
 			productRefGroup = 22964CBC2C5371A700D899C4 /* Products */;
@@ -263,15 +318,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227C16B22C5CC55F003061F3 /* privacy_policy_en.html in Resources */,
+				227C16AE2C5CC55F003061F3 /* privacy_policy_cn.html in Resources */,
+				227C16BD2C5CDBC5003061F3 /* Localizable.xcstrings in Resources */,
+				227C16AC2C5CC55F003061F3 /* api_terms_cn.html in Resources */,
+				227C16B12C5CC55F003061F3 /* license_en.html in Resources */,
+				227C16B02C5CC55F003061F3 /* api_terms_en.html in Resources */,
 				22964CC82C5371A900D899C4 /* Assets.xcassets in Resources */,
+				227C16AF2C5CC55F003061F3 /* terms_and_conditions_cn.html in Resources */,
 				22964CCB2C5371A900D899C4 /* Base in Resources */,
 				22964CC62C5371A700D899C4 /* Base in Resources */,
+				227C16AD2C5CC55F003061F3 /* license_cn.html in Resources */,
+				227C16B32C5CC55F003061F3 /* terms_and_conditions_en.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		227C16A02C5CBCB5003061F3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n# Reveal Script\nREVEAL_APP_PATH=$(mdfind kMDItemCFBundleIdentifier=\"com.ittybittyapps.Reveal2\" | head -n 1)\nBUILD_SCRIPT_PATH=\"${REVEAL_APP_PATH}/Contents/SharedSupport/Scripts/reveal_server_build_phase.sh\"\nif [ \"${REVEAL_APP_PATH}\" -a -e \"${BUILD_SCRIPT_PATH}\" ]; then\n    \"${BUILD_SCRIPT_PATH}\"\nelse\n    echo \"Reveal Server not loaded: Cannot find a compatible Reveal app.\"\nfi\n\n# Copy API keys\nCONFIG_FILE_BASE_NAME=\"config\"\n# CONFIG_FILE_NAME=${CONFIG_FILE_BASE_NAME}_debug.json\nCONFIG_FILE_NAME=${CONFIG_FILE_BASE_NAME}.json\nCONFIG_FILE_PATH=${PROJECT_DIR}/$CONFIG_FILE_NAME\n\necho \"Config path is ${CONFIG_FILE_PATH}\"\n\nif [ -f \"${CONFIG_FILE_PATH}\" ]; then\n  cp -v \"${CONFIG_FILE_PATH}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\"\n  echo \"copy ${CONFIG_FILE_PATH} to ${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app.\"\nelse\n  echo \"${CONFIG_FILE_PATH} does not exist.\"\nfi\n";
+		};
 		6D0F719EA4A8A0D2B721AE6A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,6 +412,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				22964CC52C5371A700D899C4 /* Base */,
+				227C16B62C5CC6D0003061F3 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -339,6 +421,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				22964CCA2C5371A900D899C4 /* Base */,
+				227C16B72C5CC6D0003061F3 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -351,6 +434,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -414,6 +498,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

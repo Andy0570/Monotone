@@ -61,7 +61,7 @@
 - [x] 纯代码编写的界面
 - [x] 深色模式支持
 - [x] 动画效果
-- [x] 本地化
+- [x] 本地化，使用 [String Catalog](https://developer.apple.com/documentation/xcode/localizing-and-varying-text-with-a-string-catalog) 特性实现；
 - [x] 由 [Unsplash API](https://unsplash.com/developers) 进行数据驱动
 - [x] 更多...
 
