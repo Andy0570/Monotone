@@ -10,7 +10,7 @@ target 'Monotone' do
   pod 'RxCocoa', '~> 6.7.1'
   pod 'Action', '~> 5.0.0'
   pod 'RxDataSources', '~> 5.0.0' # UITableView 和 UICollectionView 数据源
-  pod 'RxSwiftExt', '~> 6.2.1' # 添加一些有用的操作符
+  pod 'RxSwiftExt', '~> 6.2.1' # <https://github.com/RxSwiftCommunity/RxSwiftExt>
   pod 'Alamofire', '~> 5.9.1'
   pod 'SwiftyJSON', '~> 5.0.2'
   pod 'ObjectMapper', '~> 4.2.0'
