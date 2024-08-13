@@ -38,7 +38,7 @@ class User: Mappable {
 //    public var meta?
 
     init() {
-
+        
     }
 
     required init?(map: Map) {

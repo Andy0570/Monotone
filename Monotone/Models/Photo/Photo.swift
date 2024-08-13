@@ -32,6 +32,7 @@ class Photo: Equatable {
 //    public var tags:?
 
     init() {
+        
     }
 
     static func == (lhs: Photo, rhs: Photo) -> Bool {

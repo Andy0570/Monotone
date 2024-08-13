@@ -13,8 +13,8 @@ extension String {
     /// Reference: <https://stackoverflow.com/questions/32465121/splitting-a-string-in-swift-using-multiple-delimiters>
     /// @meomeomeo, answered May 23, 2019 at 6:17
     ///
-    /// - Parameter separators: <#separators description#>
-    /// - Returns: <#description#>
+    /// - Parameter separators: 包含分隔符的数组
+    /// - Returns: 拆分后的字符串数组
     func components(separatedBy separators: [String]) -> [String] {
         var result = [self]
         for separator in separators {

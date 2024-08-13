@@ -22,9 +22,9 @@ enum UserAvatarSize {
     case small
 }
 
-extension UIImageView{
+extension UIImageView {
 
-    func setPhoto(photo: Photo?, size: PhotoSize = .full){
+    func setPhoto(photo: Photo?, size: PhotoSize = .full) {
         guard let photo = photo else { return }
 
         var location:String? = nil

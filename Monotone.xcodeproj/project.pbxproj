@@ -59,6 +59,10 @@
 		22CF38E82C6A00E100DB2A3B /* UITableView+Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CF38E72C6A00E100DB2A3B /* UITableView+Notification.swift */; };
 		22CF38EA2C6A012900DB2A3B /* HMSegmentedControl+Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CF38E92C6A012900DB2A3B /* HMSegmentedControl+Selection.swift */; };
 		22CF38EC2C6A026900DB2A3B /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CF38EB2C6A026900DB2A3B /* ColorPalette.swift */; };
+		22CF38EE2C6B367A00DB2A3B /* AnimatorTrigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CF38ED2C6B367A00DB2A3B /* AnimatorTrigger.swift */; };
+		22CF38F02C6B434200DB2A3B /* MessageCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CF38EF2C6B434200DB2A3B /* MessageCenter.swift */; };
+		22CF38F22C6B43C100DB2A3B /* PhotoAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CF38F12C6B43C100DB2A3B /* PhotoAlbum.swift */; };
+		22CF38F42C6B43D100DB2A3B /* RxSwift+Opeartors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CF38F32C6B43D100DB2A3B /* RxSwift+Opeartors.swift */; };
 		E403A5D3C35FF24C83F8437F /* Pods_Monotone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DDE558E716D4FBDA6478D7 /* Pods_Monotone.framework */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +125,10 @@
 		22CF38E72C6A00E100DB2A3B /* UITableView+Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Notification.swift"; sourceTree = "<group>"; };
 		22CF38E92C6A012900DB2A3B /* HMSegmentedControl+Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HMSegmentedControl+Selection.swift"; sourceTree = "<group>"; };
 		22CF38EB2C6A026900DB2A3B /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		22CF38ED2C6B367A00DB2A3B /* AnimatorTrigger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatorTrigger.swift; sourceTree = "<group>"; };
+		22CF38EF2C6B434200DB2A3B /* MessageCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCenter.swift; sourceTree = "<group>"; };
+		22CF38F12C6B43C100DB2A3B /* PhotoAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbum.swift; sourceTree = "<group>"; };
+		22CF38F32C6B43D100DB2A3B /* RxSwift+Opeartors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxSwift+Opeartors.swift"; sourceTree = "<group>"; };
 		6E1001625C1BDC69A80F5CFF /* Pods-Monotone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monotone.debug.xcconfig"; path = "Target Support Files/Pods-Monotone/Pods-Monotone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -299,6 +307,9 @@
 			children = (
 				22CF38E02C69FF7700DB2A3B /* BlurHash */,
 				22CF38EB2C6A026900DB2A3B /* ColorPalette.swift */,
+				22CF38ED2C6B367A00DB2A3B /* AnimatorTrigger.swift */,
+				22CF38EF2C6B434200DB2A3B /* MessageCenter.swift */,
+				22CF38F12C6B43C100DB2A3B /* PhotoAlbum.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -317,6 +328,7 @@
 				22CF38E52C6A002400DB2A3B /* WKWebView+DarkMode.swift */,
 				22CF38E72C6A00E100DB2A3B /* UITableView+Notification.swift */,
 				22CF38E92C6A012900DB2A3B /* HMSegmentedControl+Selection.swift */,
+				22CF38F32C6B43D100DB2A3B /* RxSwift+Opeartors.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -590,6 +602,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22CF38EE2C6B367A00DB2A3B /* AnimatorTrigger.swift in Sources */,
 				22CF38EA2C6A012900DB2A3B /* HMSegmentedControl+Selection.swift in Sources */,
 				22CF38D52C69E7BB00DB2A3B /* Links.swift in Sources */,
 				22CF38BC2C69DF8C00DB2A3B /* Array+Find.swift in Sources */,
@@ -602,6 +615,7 @@
 				22195F952C671E3B00F3A61C /* Collection.swift in Sources */,
 				22CF38D12C69E6AC00DB2A3B /* User.swift in Sources */,
 				22CF38E42C69FF9300DB2A3B /* BlurHashEncode.swift in Sources */,
+				22CF38F22C6B43C100DB2A3B /* PhotoAlbum.swift in Sources */,
 				227C16C42C5CE507003061F3 /* UnsplashTopic.swift in Sources */,
 				22CF38E82C6A00E100DB2A3B /* UITableView+Notification.swift in Sources */,
 				22CF38CE2C69E64500DB2A3B /* Photo.swift in Sources */,
@@ -627,9 +641,11 @@
 				22CF38C82C69E51700DB2A3B /* UIImage+Reformat.swift in Sources */,
 				22CF38EC2C6A026900DB2A3B /* ColorPalette.swift in Sources */,
 				22195F802C64CEF900F3A61C /* UnsplashExploreType.swift in Sources */,
+				22CF38F02C6B434200DB2A3B /* MessageCenter.swift in Sources */,
 				22CF38E62C6A002400DB2A3B /* WKWebView+DarkMode.swift in Sources */,
 				22CF38E32C69FF9300DB2A3B /* BlurHashDecode.swift in Sources */,
 				22195F8D2C64CF4900F3A61C /* ExploreCollectionType.swift in Sources */,
+				22CF38F42C6B43D100DB2A3B /* RxSwift+Opeartors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

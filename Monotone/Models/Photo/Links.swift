@@ -17,6 +17,7 @@ class Links: Mappable {
     public var downloadLocation: String?
 
     init() {
+        
     }
 
     required init?(map: Map) {

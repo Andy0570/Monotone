@@ -18,6 +18,7 @@ class Exif: Mappable {
     var make: String?
 
     init() {
+
     }
 
     required init?(map: Map) {

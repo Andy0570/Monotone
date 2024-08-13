@@ -24,17 +24,15 @@ extension Array {
             let typeStr = String(describing: type)
 
             return elementSplitedStrs.contains(typeStr)
-        }){
+        }) {
             return element as? T
-        }
-        else{
+        } else {
             print("Could not find element of type: '\(String(describing: type))'")
             return nil
         }
     }
 
     /// 从数组中获取随机元素
-    ///
     /// Reference: <https://stackoverflow.com/questions/27259332/get-random-elements-from-array-in-swift>
     /// @Leo Dabus, answered Dec 3, 2014 at 1:12
     func choose(_ n: Int) -> Array {
