@@ -12,7 +12,7 @@ extension UIImage{
     /// 调整 UIImage 尺寸
     /// Reference: <https://stackoverflow.com/questions/2658738/the-simplest-way-to-resize-an-uiimage>
     /// @Rogerio Chaves, answered Jun 30, 2014 at 20:12
-    public func resize(to size: CGSize, retina: Bool = true) -> UIImage? {
+    func resize(to size: CGSize, retina: Bool = true) -> UIImage? {
          // In next line, pass 0 to use the current device's pixel scaling factor (and thus account for Retina resolution).
          // Pass 1 to force exact pixel size.
          UIGraphicsBeginImageContextWithOptions(
@@ -26,8 +26,9 @@ extension UIImage{
          return UIGraphicsGetImageFromCurrentImageContext()
      }
 
+    /// 便捷初始化方法
     /// 生成 1x1 大小的纯色图片
-    public convenience init?(color: UIColor, size: CGSize = CGSize(width: 1, height: 1)) {
+    convenience init?(color: UIColor, size: CGSize = CGSize(width: 1, height: 1)) {
         let rect = CGRect(origin: .zero, size: size)
         UIGraphicsBeginImageContextWithOptions(rect.size, false, 0.0)
         color.setFill()

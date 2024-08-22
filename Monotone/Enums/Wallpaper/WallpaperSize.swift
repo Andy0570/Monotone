@@ -87,7 +87,7 @@ extension WallpaperSize: RawRepresentable, CaseIterable {
         }
     }
 
-    public func adaptWallpaperSize(width: CGFloat, height: CGFloat) -> Bool {
+    func adaptWallpaperSize(width: CGFloat, height: CGFloat) -> Bool {
         if let aspectRatio = self.rawValue.aspectRatio {
             let ratio = Double(width / height)
             if ((ratio - 1.0) * ( aspectRatio - 1.0) < 0) {

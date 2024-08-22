@@ -9,7 +9,18 @@ import UIKit
 import Photos
 
 final class PhotoAlbum {
-    static let shared = PhotoAlbum()
+    // MARK: - Single Skeleton
+    // 如果你需要在初始化时进行额外设置，你可以将一个闭包的调用结果分配给全局的常量。
+    static let shared: PhotoAlbum = {
+        let photoAlbum = PhotoAlbum()
+        // setup code
+        if let assetCollection = photoAlbum.fetchAssetCollectionForAlbum() {
+            photoAlbum.assetCollection = assetCollection
+        }
+        return photoAlbum
+    }()
+
+    private init() {} // 这样可以防止其他对象使用这个类的默认 '()' 初始化器。
 
     // MARK: - Public
     static let name = "Monotone"
@@ -17,12 +28,7 @@ final class PhotoAlbum {
     // MARK: - Private
     private var assetCollection: PHAssetCollection!
 
-    init() {
-        if let assetCollection = self.fetchAssetCollectionForAlbum() {
-            self.assetCollection = assetCollection
-        }
-
-    }
+    // MARK: - Public Functions
 
     func checkAuthorization() -> Bool {
         if PHPhotoLibrary.authorizationStatus() != PHAuthorizationStatus.authorized {
@@ -60,6 +66,8 @@ final class PhotoAlbum {
             albumChangeRequest?.addAssets([assetPlaceholder] as NSArray)
         }
     }
+
+    // MARK: - Private Functions
 
     private func creatAlbum() {
         PHPhotoLibrary.shared().performChanges {

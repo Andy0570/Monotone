@@ -9,11 +9,11 @@ import HMSegmentedControl
 
 extension HMSegmentedControl {
 
-    public func equalToSelectedSegmentIndex(index: Int) -> Bool {
+    func equalToSelectedSegmentIndex(index: Int) -> Bool {
         return NSDecimalNumber(value: index) ==  NSDecimalNumber(value: self.selectedSegmentIndex)
     }
 
-    public func setSelectedSegmentIndex(index: Int, animated: Bool) {
+    func setSelectedSegmentIndex(index: Int, animated: Bool) {
         if (index < 0 || self.sectionTitles == nil || index > self.sectionTitles!.count) {
             self.setSelectedSegmentIndex(HMSegmentedControlNoSegment, animated: animated)
         } else {

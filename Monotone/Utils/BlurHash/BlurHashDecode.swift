@@ -2,7 +2,7 @@ import UIKit
 
 // 照片加载模糊效果
 extension UIImage {
-    public convenience init?(blurHash: String, size: CGSize, punch: Float = 1) {
+    convenience init?(blurHash: String, size: CGSize, punch: Float = 1) {
         guard blurHash.count >= 6 else { return nil }
 
 		let sizeFlag = String(blurHash[0]).decode83()

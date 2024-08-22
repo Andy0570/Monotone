@@ -15,7 +15,7 @@ extension Decimal {
     ///
     /// - Parameter digit: 小数点后留的位数
     /// - Returns: 返回的字符串
-    public func format(digit:Int = 0) -> String? {
+    func format(digit:Int = 0) -> String? {
         let formatter = NumberFormatter()
         formatter.generatesDecimalNumbers = true
         formatter.minimumFractionDigits = digit

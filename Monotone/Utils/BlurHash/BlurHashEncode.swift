@@ -1,7 +1,7 @@
 import UIKit
 
 extension UIImage {
-    public func blurHash(numberOfComponents components: (Int, Int)) -> String? {
+    func blurHash(numberOfComponents components: (Int, Int)) -> String? {
 		let pixelWidth = Int(round(size.width * scale))
 		let pixelHeight = Int(round(size.height * scale))
 

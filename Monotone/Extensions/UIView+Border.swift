@@ -10,7 +10,7 @@ import UIKit
 extension UIView{
 
     /// 为 UIView 添加边框样式
-    public func applyDashedBorder(color: UIColor, width: CGFloat = 2.0, cornerRadius: CGFloat = 0) {
+    func applyDashedBorder(color: UIColor, width: CGFloat = 2.0, cornerRadius: CGFloat = 0) {
         let shapeLayer:CAShapeLayer = CAShapeLayer()
         let size = self.bounds.size
         let shapeRect = CGRect(x: 0, y: 0, width: size.width, height: size.height)
