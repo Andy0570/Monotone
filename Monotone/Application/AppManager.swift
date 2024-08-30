@@ -7,7 +7,7 @@
 
 import Foundation
 
-// 应用授权凭证管理
+/// 应用授权凭证管理
 final class AppManager {
     let credential: AppCredential = AppCredential()
 

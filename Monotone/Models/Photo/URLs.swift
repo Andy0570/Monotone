@@ -5,15 +5,14 @@
 //  Created by Qilin Hu on 2024/8/12.
 //
 
-import Foundation
 import ObjectMapper
 
 class URLs: Mappable {
-    public var raw: String?
-    public var full: String?
-    public var regular: String?
-    public var small: String?
-    public var thumb: String?
+    var raw: String?
+    var full: String?
+    var regular: String?
+    var small: String?
+    var thumb: String?
 
     required init?(map: Map) {
         self.mapping(map: map)

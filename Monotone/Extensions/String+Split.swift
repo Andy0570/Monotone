@@ -9,9 +9,9 @@ import Foundation
 
 extension String {
 
-    /// 使用多个分隔符快速拆分字符串
-    /// Reference: <https://stackoverflow.com/questions/32465121/splitting-a-string-in-swift-using-multiple-delimiters>
-    /// @meomeomeo, answered May 23, 2019 at 6:17
+    /// 使用多个分隔符快速拆分字符串。
+    /// - Reference: <https://stackoverflow.com/questions/32465121/splitting-a-string-in-swift-using-multiple-delimiters>
+    /// - Author: meomeomeo
     ///
     /// - Parameter separators: 包含分隔符的数组
     /// - Returns: 拆分后的字符串数组

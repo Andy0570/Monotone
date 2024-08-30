@@ -8,8 +8,11 @@
 import Foundation
 import SwiftyJSON
 
-// 应用授权凭证
-// Tips: 请提前将从官方渠道获取到的应用授权凭证保存到项目根目录的 config.json 文件中
+/**
+ 应用授权凭证
+
+ Attention: 请提前将从 [Unsplash](https://unsplash.com/developers) 获取到的应用授权凭证保存到项目根目录的 config.json 文件中。
+ */
 final class AppCredential {
     private let configFileName = "config"
 

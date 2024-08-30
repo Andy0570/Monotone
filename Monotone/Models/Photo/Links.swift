@@ -5,20 +5,15 @@
 //  Created by Qilin Hu on 2024/8/12.
 //
 
-import Foundation
 import ObjectMapper
 
 class Links: Mappable {
-    public var selfLink: String?
-    public var html: String?
-    public var photos: String?
-    public var likes: String?
-    public var download: String?
-    public var downloadLocation: String?
-
-    init() {
-        
-    }
+    var selfLink: String?
+    var html: String?
+    var photos: String?
+    var likes: String?
+    var download: String?
+    var downloadLocation: String?
 
     required init?(map: Map) {
         self.mapping(map: map)

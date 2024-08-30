@@ -8,8 +8,11 @@
 import UIKit
 import Hue
 
-// 纯代码实现的一套 APP 色彩方案，支持深色模式
-// Reference: <http://www.chienerrant.com/blog/4190/>
+/**
+ 纯代码实现的一套 APP 色彩方案，支持深色模式。
+
+ SeeAlso: <http://www.chienerrant.com/blog/4190/>
+ */
 final class ColorPalette {
     
     /// Easily define two colors for both light and dark mode.

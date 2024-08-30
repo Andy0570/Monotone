@@ -7,7 +7,7 @@
 
 import Foundation
 
-// 侧面菜单
+/// 侧面菜单
 enum SideMenuPage {
     case myPhotos // 我的照片
     case hiring // 应募

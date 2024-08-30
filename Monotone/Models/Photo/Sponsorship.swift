@@ -5,10 +5,9 @@
 //  Created by Qilin Hu on 2024/8/12.
 //
 
-import Foundation
 import ObjectMapper
 
-// 资助?
+/// 资助
 class Sponsorship: Mappable {
     // var impressionURLs: []?
     var tagline: String?

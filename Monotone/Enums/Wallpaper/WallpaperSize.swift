@@ -7,7 +7,7 @@
 
 import UIKit
 
-// 高清壁纸，尺寸类型
+/// 高清壁纸，尺寸类型
 enum WallpaperSize {
     case all
     case iphone

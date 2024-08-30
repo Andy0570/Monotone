@@ -7,7 +7,7 @@
 
 import UIKit
 
-// Unsplash 商店
+/// Unsplash 商店
 enum UnsplashStoreCategory {
     case home // Home
     case allProducts // 所有

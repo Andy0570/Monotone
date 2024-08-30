@@ -32,9 +32,9 @@ extension Array {
         }
     }
 
-    /// 从数组中获取随机元素
-    /// Reference: <https://stackoverflow.com/questions/27259332/get-random-elements-from-array-in-swift>
-    /// @Leo Dabus, answered Dec 3, 2014 at 1:12
+    /// 从数组中获取随机元素。
+    /// - Reference: <https://stackoverflow.com/questions/27259332/get-random-elements-from-array-in-swift>
+    /// - Author: Leo Dabus
     func choose(_ n: Int) -> Array {
         return Array(self.shuffled().prefix(n))
     }

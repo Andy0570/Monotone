@@ -7,7 +7,7 @@
 
 import UIKit
 
-// 探索
+/// 探索
 enum ExplorePhotoType {
     case business // Business images
     case technology // Technology images

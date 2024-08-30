@@ -5,7 +5,6 @@
 //  Created by Qilin Hu on 2024/8/12.
 //
 
-import Foundation
 import ObjectMapper
 
 /// 数码照片的属性信息和拍摄数据
@@ -16,10 +15,6 @@ class Exif: Mappable {
     var focalLength: String?
     var exposureTime: String?
     var make: String?
-
-    init() {
-
-    }
 
     required init?(map: Map) {
         self.mapping(map: map)

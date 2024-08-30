@@ -5,7 +5,6 @@
 //  Created by Qilin Hu on 2024/8/12.
 //
 
-import Foundation
 import ObjectMapper
 
 class Location: Mappable {
@@ -14,18 +13,14 @@ class Location: Mappable {
     var position: Position?
     var title: String?
 
-    init() {
-
-    }
-
     required init?(map: Map) {
         self.mapping(map: map)
     }
 
     func mapping(map: Map) {
-        city        <- map["city"]
-        country     <- map["country"]
-        position    <- map["position"]
-        title       <- map["title"]
+        city <- map["city"]
+        country <- map["country"]
+        position <- map["position"]
+        title <- map["title"]
     }
 }

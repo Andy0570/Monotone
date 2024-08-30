@@ -1,6 +1,6 @@
 import UIKit
 
-// 照片加载模糊效果
+/// 添加照片加载模糊效果
 extension UIImage {
     convenience init?(blurHash: String, size: CGSize, punch: Float = 1) {
         guard blurHash.count >= 6 else { return nil }

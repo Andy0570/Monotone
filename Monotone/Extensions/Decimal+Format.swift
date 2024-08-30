@@ -9,9 +9,9 @@ import Foundation
 
 extension Decimal {
 
-    /// 将带小数的数字转换为字符串
-    /// Reference: <https://stackoverflow.com/questions/46933209/how-to-convert-decimal-to-string-with-two-digits-after-separator>
-    /// @Ladislav, answered Oct 25, 2017 at 13:16
+    /// 将带小数的数字转换为字符串。
+    /// - Reference: <https://stackoverflow.com/questions/46933209/how-to-convert-decimal-to-string-with-two-digits-after-separator>
+    /// - Author: Ladislav
     ///
     /// - Parameter digit: 小数点后留的位数
     /// - Returns: 返回的字符串

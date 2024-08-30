@@ -40,7 +40,7 @@ PODS:
   - ViewAnimator (3.1.0)
 
 DEPENDENCIES:
-  - Action (~> 5.0.0)
+  - Action
   - Alamofire (~> 5.9.1)
   - anim (~> 1.2.10)
   - BEMCheckBox (~> 1.4.1)
@@ -104,6 +104,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
   ViewAnimator: a9ceed80266e00fd435ec4fb99b2df64d580d0e4
 
-PODFILE CHECKSUM: da95a81768898c4b73122e46ac3a26559e298990
+PODFILE CHECKSUM: 7424f5b953f2b8cb526eb1c4f947ec0785c3ab21
 
-COCOAPODS: 1.14.2
+COCOAPODS: 1.15.2

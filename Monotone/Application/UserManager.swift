@@ -9,7 +9,7 @@ import Foundation
 import RxSwift
 import RxRelay
 
-// 用户管理
+/// 用户管理
 final class UserManager {
     // MARK: - Public
     let currentUser: BehaviorRelay<User?> = BehaviorRelay<User?>(value: nil)

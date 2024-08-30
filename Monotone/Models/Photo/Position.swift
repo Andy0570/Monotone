@@ -5,23 +5,18 @@
 //  Created by Qilin Hu on 2024/8/12.
 //
 
-import Foundation
 import ObjectMapper
 
 class Position: Mappable {
     var latitude: String?
     var longitude: String?
 
-    init() {
-
-    }
-
     required init?(map: Map) {
         self.mapping(map: map)
     }
 
     func mapping(map: Map) {
-        latitude    <- map["latitude"]
-        longitude   <- map["longitude"]
+        latitude <- map["latitude"]
+        longitude <- map["longitude"]
     }
 }

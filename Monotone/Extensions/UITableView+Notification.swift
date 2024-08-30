@@ -9,8 +9,8 @@ import Foundation
 import RxCocoa
 import RxSwift
 
-// Reference: <https://github.com/RxSwiftCommunity/RxDataSources/issues/183>
-// @leviathan commented on Dec 13, 2017
+/// Reference: <https://github.com/RxSwiftCommunity/RxDataSources/issues/183>
+/// Author: leviathan
 extension UITableView {
 
     /// Reactive wrapper for `UITableView.insertRows(at:with:)`

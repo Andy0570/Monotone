@@ -21,8 +21,8 @@ enum UnsplashTopic {
 }
 
 extension UnsplashTopic: RawRepresentable, CaseIterable {
-    // 为枚举类型添加自定义初始化方法
-    // 该枚举类型的 backing store 类型是一个元组类型
+    /// 自定义初始化方法
+    /// 该枚举类型的 backing store 类型是一个元组类型
     init?(rawValue: (key: String, title: String)) {
         switch rawValue.key {
         case "nature":

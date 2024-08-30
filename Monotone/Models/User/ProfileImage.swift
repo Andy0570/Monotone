@@ -5,17 +5,12 @@
 //  Created by Qilin Hu on 2024/8/12.
 //
 
-import Foundation
 import ObjectMapper
 
 class ProfileImage: Mappable {
-    public var small: String?
-    public var medium: String?
-    public var large: String?
-
-    init() {
-
-    }
+    var small: String?
+    var medium: String?
+    var large: String?
 
     required init?(map: Map) {
         self.mapping(map: map)

@@ -7,7 +7,6 @@
 
 import Foundation
 
-// 全局常量
 enum GlobalConstants {
     // ScrollView
     static let showTopContentOffset: CGFloat = 50.0

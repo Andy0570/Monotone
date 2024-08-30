@@ -8,7 +8,7 @@
 import UIKit
 import ViewAnimator
 
-// 转场动画效果，对 ViewAnimator（https://github.com/marcosgriselli/ViewAnimator） 的封装
+/// 转场动画效果，对 [ViewAnimator](https://github.com/marcosgriselli/ViewAnimator) 的封装
 final class AnimatorTrigger {
     static let animationInterval: TimeInterval = 0.2
     static let duration: TimeInterval = 0.3

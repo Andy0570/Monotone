@@ -7,7 +7,7 @@
 
 import Foundation
 
-// 许可条例
+/// 许可条例
 // TODO: Integrate agreements as HTML files displayed by WebView.
 enum UnsplashAgreement {
     case license // 许可证

@@ -7,7 +7,7 @@
 
 import UIKit
 
-// 帮助
+/// 帮助
 enum UnsplashHelpCategory {
     case account // 账户
     case licenses // 许可证

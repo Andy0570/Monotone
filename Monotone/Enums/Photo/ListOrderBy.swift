@@ -7,7 +7,7 @@
 
 import Foundation
 
-// 照片列表排序方式
+/// 照片列表排序方式
 enum ListOrderBy {
     case popular // 人气
     case latest  // 最新

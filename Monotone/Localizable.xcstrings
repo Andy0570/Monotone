@@ -1,7 +1,153 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-
+    "uns_agreement_api_terms_title" : {
+      "comment" : "API Terms"
+    },
+    "uns_agreement_license_title" : {
+      "comment" : "License"
+    },
+    "uns_agreement_manifesto_title" : {
+      "comment" : "Manifesto"
+    },
+    "uns_agreement_privacy_policy_title" : {
+      "comment" : "Privacy Policy"
+    },
+    "uns_agreement_terms_and_conditions_title" : {
+      "comment" : "Terms And Conditions"
+    },
+    "uns_explore_type_explore" : {
+      "comment" : "Explore"
+    },
+    "uns_explore_type_popular" : {
+      "comment" : "Popular"
+    },
+    "uns_help_account_description" : {
+      "comment" : "Learn about your Unsplash account and how to manage your preferences"
+    },
+    "uns_help_account_title" : {
+      "comment" : "Managing your Unsplash account"
+    },
+    "uns_help_license_description" : {
+      "comment" : "The official Unsplash License guide and FAQ"
+    },
+    "uns_help_license_title" : {
+      "comment" : "Unsplash Licenses"
+    },
+    "uns_home_segment_animals" : {
+      "comment" : "Animals"
+    },
+    "uns_home_segment_architecture" : {
+      "comment" : "Architecture"
+    },
+    "uns_home_segment_arts_culture" : {
+      "comment" : "Arts & Culture"
+    },
+    "uns_home_segment_food_drink" : {
+      "comment" : "Food & Drink"
+    },
+    "uns_home_segment_latest" : {
+      "comment" : "Latest"
+    },
+    "uns_home_segment_nature" : {
+      "comment" : "Nature"
+    },
+    "uns_home_segment_people" : {
+      "comment" : "People"
+    },
+    "uns_home_segment_popular" : {
+      "comment" : "Popular"
+    },
+    "uns_home_segment_street_photography" : {
+      "comment" : "Street Photography"
+    },
+    "uns_home_segment_sustainability" : {
+      "comment" : "Sustainability"
+    },
+    "uns_home_segment_technology" : {
+      "comment" : "Technology"
+    },
+    "uns_home_segment_travel" : {
+      "comment" : "Travel"
+    },
+    "uns_made_with_uns_category_all_title" : {
+      "comment" : "All"
+    },
+    "uns_made_with_uns_category_apps_title" : {
+      "comment" : "Apps"
+    },
+    "uns_made_with_uns_category_articles_title" : {
+      "comment" : "Articles"
+    },
+    "uns_made_with_uns_category_products_title" : {
+      "comment" : "Products"
+    },
+    "uns_made_with_uns_category_remixes_title" : {
+      "comment" : "Remixes"
+    },
+    "uns_made_with_uns_category_videos_title" : {
+      "comment" : "Videos"
+    },
+    "uns_made_with_uns_category_websites_title" : {
+      "comment" : "Websites"
+    },
+    "uns_photo_ablum_no_authoration_btn_to_system_settings" : {
+      "comment" : "Settings"
+    },
+    "uns_photo_ablum_no_authoration_description" : {
+      "comment" : "Allow Monotone to access your photos in \"Settings > Privacy > Photos\""
+    },
+    "uns_photo_ablum_no_authoration_title" : {
+      "comment" : "Oops, there was a problem of authentication..."
+    },
+    "uns_side_menu_option_help" : {
+      "comment" : "Help"
+    },
+    "uns_side_menu_option_hiring" : {
+      "comment" : "Hiring"
+    },
+    "uns_side_menu_option_licenses" : {
+      "comment" : "Licenses"
+    },
+    "uns_side_menu_option_made_with_unsplash" : {
+      "comment" : "Made with Unsplash"
+    },
+    "uns_side_menu_option_my_photos" : {
+      "comment" : "My Photos"
+    },
+    "uns_store_category_all" : {
+      "comment" : "All Products"
+    },
+    "uns_store_category_home" : {
+      "comment" : "Home"
+    },
+    "uns_store_category_made_by_unsplash" : {
+      "comment" : "Made by Unsplash"
+    },
+    "uns_store_category_made_with_friends" : {
+      "comment" : "Made with Friends"
+    },
+    "uns_wallpapers_size_4k" : {
+      "comment" : "4K"
+    },
+    "uns_wallpapers_size_all" : {
+      "comment" : "All Wallpapers"
+    },
+    "uns_wallpapers_size_android" : {
+      "comment" : "Android"
+    },
+    "uns_wallpapers_size_ipad" : {
+      "comment" : "iPad"
+    },
+    "uns_wallpapers_size_iphone" : {
+      "comment" : "iPhone"
+    },
+    "uns_wallpapers_size_lock" : {
+      "comment" : "lock"
+    },
+    "uns_wallpapers_size_mac" : {
+      "comment" : "Mac"
+    }
   },
   "version" : "1.0"
 }

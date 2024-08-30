@@ -8,7 +8,7 @@
 import RxSwift
 import RxRelay
 
-// MARK: - 2-way Binding，双向绑定
+/// 2-way Binding，双向绑定
 infix operator <=> : DefaultPrecedence
 func <=> <T: Equatable>(observableA: BehaviorRelay<T>, observableB: BehaviorRelay<T>) -> Disposable {
 
