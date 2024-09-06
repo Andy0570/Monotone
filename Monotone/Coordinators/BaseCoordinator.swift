@@ -36,21 +36,21 @@ protocol CoordinatorTransitionable {
     func pop(animated: Bool) -> Observable<Void>
 }
 
-class BaseCoordinator: Coordinator {
+class BaseCoordinator: NSObject, Coordinator {
 
     // MARK: - Public
-
     var childCoordinators: [Coordinator] = [Coordinator]()
+
     var window: UIWindow
     weak var currentViewController: UIViewController?
 
     // MARK: - Life Cycle
-
     init(window: UIWindow) {
         self.window = window
         self.currentViewController = window.rootViewController
     }
 
+    /// 找到当前协调器下的第一个视图控制器
     static func acturalViewController(for viewController: UIViewController) -> UIViewController {
         var vc = viewController
 

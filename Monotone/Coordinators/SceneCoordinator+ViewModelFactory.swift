@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+extension SceneCoordinator: ViewModelFactory {
+    func viewModel(sceneContentType: SceneContent, with args: [String : Any?]?) -> BaseViewModel? {
+        return BaseViewModel(services: nil, args: nil)
+    }
+}

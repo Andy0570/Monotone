@@ -9,7 +9,7 @@ import UIKit
 
 /// 对各个场景之间的"转场类型"进行建模
 enum SceneTransition {
-    case root
-    case push
-    case present
+    case root(scene: Scene, wrapped: Bool = false)
+    case push(scene: Scene)
+    case present(scene: Scene, presentationStyle: UIModalPresentationStyle = .fullScreen, wrapped: Bool = false)
 }

@@ -1,5 +1,5 @@
 //
-//  GlobalConstants.swift
+//  Constants.swift
 //  Monotone
 //
 //  Created by Qilin Hu on 2024/8/2.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum GlobalConstants {
+enum Constants {
     // ScrollView
     static let showTopContentOffset: CGFloat = 50.0
 
